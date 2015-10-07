@@ -1,0 +1,29 @@
+//
+// Mixins
+// --------------------------------------------------
+
+
+// Font sizes
+// -------------------------
+
+.font-size-variant(@font-size) {
+  font-size: @font-size;
+}
+
+.font-size-variant-sm(@font-size) {
+  font-size: floor( @font-size * .85 );
+}
+
+.font-size-variant-xs(@font-size) {
+  font-size: floor( @font-size * .45 );
+}
+
+
+// Widget Mixins
+// -------------------------
+
+.widget-last() {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}

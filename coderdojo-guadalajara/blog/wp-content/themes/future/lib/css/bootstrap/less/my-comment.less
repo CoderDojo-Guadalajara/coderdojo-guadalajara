@@ -1,0 +1,129 @@
+//
+// Comments
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Comments
+* ==========================================================================
+*/
+
+#comments {
+	& .comments-title {
+		margin: 0 0 30px 0;
+	}
+	& .no-comments,
+	& .no-password {
+		text-align: center;
+		margin-bottom: @comments-margin;
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: floor(@comments-margin / 1.22);
+		}
+	}	
+}
+
+/*
+* ==========================================================================
+* Comment List
+* ==========================================================================
+*/
+
+.comment-list {
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	& .comment {
+		position: relative;
+		overflow: hidden;
+		&.bypostauthor {
+			/** bypostauthor */
+		}
+	}
+	
+	& .pingback-wrapper {
+		
+		margin-bottom: 30px;
+		
+		> .comment-body {
+			margin: 0;
+		}
+	}	
+	
+	& .comment-wrapper {
+		
+		margin-bottom: 30px;
+		
+		> .comment-body {
+			
+			& .panel-heading {
+				.clearfix();
+			}
+			
+			& .comment-author-avatar-wrapper {
+
+				float: left;
+				width: 48px;
+				height: 48px;
+				margin: 0 15px 0 0;
+				
+				& .avatar {
+					max-width: 100%;
+					height: auto;
+				}
+
+			}
+
+			& .comment-author-title {
+				margin: 0;
+			}
+			
+			& .comment-meta {
+				margin: 0;
+			}
+		
+		}
+	
+	}
+	
+	& .children {
+		
+		list-style: none;
+		margin: 0 0 0 30px;
+		padding: 0;
+	
+	}
+
+}
+
+/*
+* ==========================================================================
+* Comment Respond
+* ==========================================================================
+*/
+
+.comment-respond {
+	
+	position: relative;
+	margin-bottom: @respond-margin;
+	
+	& .comment-reply-title {
+		margin: 0 0 10px 0;
+	}
+	
+	& #cancel-comment-reply-link {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+	& .required {
+		color: @respond-required-color;
+	}
+	
+	@media (max-width: @screen-xs-max) {
+		margin-bottom: floor(@respond-margin / 1.22);
+	}
+
+}

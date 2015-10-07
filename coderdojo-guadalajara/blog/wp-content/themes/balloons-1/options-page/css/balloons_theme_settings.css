@@ -1,0 +1,18 @@
+.error {
+	color: #cc0000;
+}
+
+h3 {
+	padding: 0;
+}
+
+table {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #f0f0f0;
+}
+
+.form-table {
+	margin: 0 0 20px 0;
+}

@@ -1,0 +1,29 @@
+//
+// Isotope Portfolio
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Portfolio Layout Wrapper
+* ==========================================================================
+*/
+
+.portfolio-template-wrapper {
+	
+	padding-top: @portfolio-layout-padding;
+	padding-bottom: @portfolio-layout-padding;
+	@media (max-width: @screen-xs-max) {
+		padding-top: floor(@portfolio-layout-padding / 1.22);
+		padding-bottom: floor(@portfolio-layout-padding / 1.22);
+	}
+
+	& .template-portfolio-filters-wrapper {
+
+		margin-bottom: @portfolio-template-filters-margin;
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: floor(@portfolio-template-filters-margin / 1.22);
+		}
+
+	}
+
+}

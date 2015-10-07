@@ -1,0 +1,30 @@
+//
+// Content Classes
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Content
+* ==========================================================================
+*/
+
+.content {
+	@media (max-width: @screen-xs-max) {
+		padding-bottom: floor(@content-padding / 1.22);
+	}
+}
+
+/*
+* ==========================================================================
+* Content Sidebar Wrapper
+* ==========================================================================
+*/
+
+.content-sidebar-wrapper {
+	padding-top: @content-sidebar-padding;
+	padding-bottom: @content-sidebar-padding;
+	@media (max-width: @screen-xs-max) {
+		padding-top: floor(@content-sidebar-padding / 1.22);
+		padding-bottom: floor(@content-sidebar-padding / 1.22);
+	}
+}

@@ -1,0 +1,145 @@
+//
+// Flexslider Widget
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Flexslider Widget
+* ==========================================================================
+*/
+
+.flexslider {
+	
+	//
+	// Flexslider Direction Nav
+	// --------------------------------------------------
+
+	& .flex-direction-nav {
+		
+		& a {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: @carousel-control-width;
+			.opacity(@carousel-control-opacity);
+			font-size: @carousel-control-font-size;
+			color: @carousel-control-color;
+			text-align: center;
+			text-shadow: @carousel-text-shadow;
+			// We can't have this transition here because WebKit cancels the carousel
+			// animation if you trip this while in the middle of another animation.
+			&.flex-next {
+				left: auto;
+			    right: 0;
+			    #gradient > .horizontal(@start-color: rgba(0,0,0,.0001); @end-color: rgba(0,0,0,.5));
+			}
+			&.flex-prev {
+				#gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));
+			}
+			&:hover,
+			&:focus {
+				color: @carousel-control-color;
+			    text-decoration: none;
+			    .opacity(.9);
+			}
+		}
+
+		& .icon-prev,
+		& .icon-next,
+		& .glyphicon-chevron-left,
+		& .glyphicon-chevron-right {
+		    position: absolute;
+		    top: 50%;
+		    z-index: 5;
+		    display: inline-block;
+		}
+		& .icon-prev,
+		& .glyphicon-chevron-left {
+		    left: 50%;
+		}
+		& .icon-next,
+		& .glyphicon-chevron-right {
+		    right: 50%;
+		}
+		& .icon-prev,
+		& .icon-next {
+		    width:  20px;
+		    height: 20px;
+		    margin-top: -10px;
+		    margin-left: -10px;
+		    font-family: serif;
+		}
+
+		& .icon-prev {
+		    &:before {
+		      content: '\2039';// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
+		    }
+		}
+		& .icon-next {
+		    &:before {
+		      content: '\203a';// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
+		    }
+		}
+		
+	}
+
+	//
+	// Flexslider Control Nav
+	// --------------------------------------------------
+
+	& .flex-control-nav {
+		
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		z-index: 15;
+		width: 60%;
+		margin-left: -30%;
+		padding-left: 0;
+		list-style: none;
+		text-align: center;
+
+		& li {
+			
+			display: inline-block;
+
+			& a {
+				display: block;
+			    width:  10px;
+			    height: 10px;
+			    margin: 0 5px 0 0;
+			    text-indent: -9999px;
+			    border: 1px solid @carousel-indicator-border-color;
+			    border-radius: 10px;
+			    cursor: pointer;
+
+			    // IE8-9 hack for event handling
+			    //
+			    // Internet Explorer 8-9 does not support clicks on elements without a set
+			    // `background-color`. We cannot use `filter` since that's not viewed as a
+			    // background color by the browser. Thus, a hack is needed.
+			    //
+			    // For IE8, we set solid black as it doesn't support `rgba()`. For IE9, we
+			    // set alpha transparency for the best results possible.
+			    background-color: #000 \9; // IE8
+			    background-color: rgba(0,0,0,0); // IE9
+
+				&.flex-active {
+				    margin: 0 5px 0 0;
+				    width:  10px;
+				    height: 10px;
+				    background-color: @carousel-indicator-active-bg;
+				  }
+
+			}
+
+		}
+
+		@media (max-width: @screen-xs-max) {
+			display: none;
+		}
+
+	}
+
+}

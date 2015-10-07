@@ -1,0 +1,21 @@
+/*
+Theme Name: Balloons
+Theme URI: http://www.moargh.de
+Description: 'Balloons' is a one-column layout with parallax-scrolling effect. It comes with a tiny color switcher and a three-column widgetized footer. It is responsive to your visitor’s screen size (computer / tablet / mobile phone) and a stylesheet for the WP-Pagenavi plugin is included; available in English and German.
+Version: 1.1
+Author: Moargh.de
+Author URI: http://www.moargh.de
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: minimalistic, one-column, parallax-scrolling, custom-colors, custom-menu, multi-language, WP-Pagenavi-ready, responsive, widgetized footer, balloons
+*/
+
+
+@import url("css/layout.css");
+@import url("css/typo.css");
+
+@import url("css/mobile.css");
+
+@import url("css/wp-paginate.css");
+
+@import url("http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Rosario:400,400italic");
