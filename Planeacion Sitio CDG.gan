@@ -7,8 +7,8 @@
         <timeline><![CDATA[7]]></timeline>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="52" order="0"/>
-        <field id="1" name="Función" width="47" order="1"/>
+        <field id="0" name="Nombre" width="50" order="0"/>
+        <field id="1" name="Función" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -34,14 +34,17 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Blog" meeting="false" start="2015-10-05" duration="3" complete="53" expand="true">
+        <task id="0" name="Blog" meeting="false" start="2015-10-05" duration="3" complete="80" expand="true">
             <task id="5" name="Revisar plataforma en que se realizará" color="#8cb6ce" meeting="false" start="2015-10-05" duration="1" complete="100" expand="true"/>
-            <task id="7" name="Buscar plantilla wordpress" color="#8cb6ce" meeting="false" start="2015-10-06" duration="2" complete="30" priority="2" expand="true"/>
+            <task id="7" name="Buscar plantilla wordpress" color="#8cb6ce" meeting="false" start="2015-10-06" duration="2" complete="70" priority="2" expand="true"/>
         </task>
-        <task id="2" name="Página de mantenimiento" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true">
-            <task id="6" name="Escribir mensaje a mostrar" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Página de mantenimiento" meeting="false" start="2015-10-06" duration="1" complete="40" expand="true">
+            <task id="6" name="Escribir mensaje a mostrar" color="#8cb6ce" meeting="false" start="2015-10-06" duration="1" complete="40" expand="true"/>
         </task>
-        <task id="3" name="Página principal" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true"/>
+        <task id="3" name="Página principal" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true">
+            <task id="9" name="Recolectar información base" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="10" name="Página de contacto" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true"/>
         <task id="4" name="Línea de tiempo" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true"/>
         <task id="1" name="Fusionar" meeting="false" start="2015-10-06" duration="1" complete="0" expand="true"/>
     </tasks>
