@@ -4,6 +4,12 @@
   margin: 0;
 }
 
+html, body
+{
+    height: 100%;
+    position: relative;
+}
+
 #main_container
 {
 	width:100%;
@@ -66,6 +72,26 @@
 	top: 120px;
 }
 
+#footerMain
+{
+    position: fixed;
+    z-index: 100;
+    background: #ffffff;
+    width:100%;
+    
+    bottom: 0;
+    /*
+    bottom: 0;
+    position: fixed;*/
+    /*width:90%;
+    margin-top:5px;
+    margin-left:5%;
+    background:#ffffff;
+    border: 3px outset;
+    height: 110px;
+    float:left;*/
+}
+
 body
 {
 	/*margin:0px;
@@ -98,17 +124,6 @@ body
 .menu_principal ul li a:hover
 {
     /*color: blue;*/
-}
-
-.footerMain
-{
-    /*width:90%;
-    margin-top:5px;
-    margin-left:5%;
-    background:#ffffff;
-    border: 3px outset;
-    height: 110px;
-    float:left;*/
 }
 
 .footer_msg
