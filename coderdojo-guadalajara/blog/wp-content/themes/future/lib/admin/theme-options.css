@@ -1,0 +1,205 @@
+/**
+|------------------------
+| =Clear Floated Elements
+|------------------------
+*/
+
+.future-clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.future-clearfix:before,
+.future-clearfix:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.future-clearfix:after {
+  clear: both;
+}
+
+.future-clearfix {
+  zoom: 1;
+}
+
+/**
+|------------------------
+| =Options Form
+|------------------------
+*/
+
+#future-form-wrapper {
+	background-color: #eeeeee;
+	border: 1px solid #e5e5e5;
+	margin-top: 20px;
+}
+
+#future-form-header,
+#future-form-footer {
+	text-align: right;
+	padding: 20px;	
+}
+
+#future-form-header {
+	border-bottom: 1px solid #DFDFDF;
+}
+
+#future-form-footer {
+	border-top: 1px solid #DFDFDF;
+}
+
+/**
+|------------------------
+| =Options Sidebar
+|------------------------
+*/
+
+#future-sidebar,
+#future-main {
+	min-height: 400px;
+}
+
+#future-sidebar {
+	width: 200px;
+	float: left;
+}
+
+#future-sidebar #future-group-menu,
+#future-sidebar #future-group-menu li {
+	margin: 0;
+}
+
+#future-sidebar #future-group-menu li.divide {
+	padding: 0px;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+    border-bottom-color: #DFDFDF;
+    border-top-color: #F9F9F9;
+}
+
+#future-sidebar #future-group-menu li a {
+	display:block;
+	padding: 14px 14px;
+	background: #eeeeee;
+	border-top: solid 1px #F9F9F9;
+	border-right: solid 1px #DFDFDF;
+	border-bottom: solid 1px #DFDFDF;
+	border-left: none;
+	color: #333333;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#future-sidebar #future-group-menu li a.custom-tab {
+	background: #f6f6f6;
+}
+
+#future-sidebar #future-group-menu li a img {
+	width: 16px;
+	height: 16px;
+	margin-bottom:-3px;
+}
+
+#future-sidebar #future-group-menu li a:hover {
+	background:#f9f9f9;
+}
+
+#future-sidebar #future-group-menu li.active a {
+	background:#ffffff;
+	border-right: none;
+}
+
+/**
+|------------------------
+| =Options Main
+|------------------------
+*/
+
+#future-main {
+	background: #FFFFFF;
+	margin-left: 200px;
+	padding: 16px 20px 1px 20px;
+}
+
+.future-group-tab {
+	display: none;
+}
+
+.future-group-tab h3 {
+	margin: 0 0 18px 0;
+	padding: 0 0 18px 0;
+	border-bottom: 1px solid #DFDFDF;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.future-group-tab .future-section-desc {
+	font-style: italic;
+	border-bottom: 1px solid #DFDFDF;
+	padding: 0 0 18px 0;
+	margin: 0 0 30px 0;
+}
+
+.future-group-tab .future-section-desc p.description {
+	margin: 0;
+	padding: 0;
+}
+
+.future-group-tab select {
+	width: 35%;
+}
+
+.future-group-tab input[type="text"] {
+	width: 50%;
+}
+
+/**
+|------------------------
+| =Sidebars
+|------------------------
+*/
+
+.sidebar_wrapper {
+	margin: 0 0 15px 0;	
+}
+
+.sidebar_input_wrapper {
+	float: left;
+	width: 35%;
+	margin: 0 10px 0 0;	
+}
+
+.sidebar_input_wrapper input[type="text"] {
+	width: 100%;
+}
+
+/**
+|------------------------
+| =Options Form Table
+|------------------------
+*/
+
+.future-group-tab .form-table {
+	clear: none;
+}
+
+.future-group-tab .form-table th {
+	font-weight: bold;
+	padding: 0 0 30px 0;
+}
+
+.future-group-tab .form-table td {
+	padding: 0 0 30px 0;
+}

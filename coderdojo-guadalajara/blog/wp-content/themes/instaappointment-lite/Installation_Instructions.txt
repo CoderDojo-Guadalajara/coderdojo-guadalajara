@@ -1,0 +1,68 @@
+/*========= InstaAppointment Lite =========*/
+
+== Copyright and License ==
+InstaAppointment Lite WordPress Theme, Copyright 2014 SketchThemes.
+InstaAppointment Lite WordPress theme is distributed under the terms of the GNU GPL.
+
+/*========= Installation =========*/
+
+1. Upload the 'instaappointment-lite` folder to the `/wp-content/themes/` directory
+Activation and Use
+1. Activate the Theme through the 'Themes' menu in WordPress
+2. See Appearance -> InstaAppointment Options to change theme options
+3. See Settings -> Reading -> Choose a Page for the Front page and Page for Posts page from drop-down.
+
+   "When you choose a Page for the Front page from drop-down, the contents of Selected page aren't displayed anywhere on the static front page."
+
+   "default your latest posts are show on front page if you are not select any page for front page."
+
+/*========= Theme Features and Documentation =========*/
+
+== WP Version ==
+
+It's requires at least version 3.4 to work properly.Please make sure your WP version is at least 3.4.
+
+
+== Theme Setup ==
+
+*General Settings:*
+1)Choose Theme Color.
+2)Upload a favicon.
+
+
+*Header Settings:*
+1) Change Logo.
+2) Mobile Menu Activate Width.
+3) Header Static Image
+
+*Top Bar Settings :*
+1) Add Social Profile links here.
+2) Call Us Text.
+
+*Breadcrumb Settings :*
+1)Choose Page Title & Breadcrumb Background Color & Image.
+
+*Home Page Featured Section : *
+1) add Featured Boxes details here.
+
+*Home Page Parallax Section : *
+1) add Parallax Content here.
+
+*Blog Settings :*
+1)  Enter Blog Page Title.
+
+
+*Footer :*
+1) Enter Your Copyright Text(You can use HTML for links.)
+
+
+
+Plase install Contact Form 7 plugin and put shortcode in page content to show contact form on contact page.
+
+/*========= Page Templates =========*/
+
+1)Full Width Template
+
+/*========= Translation =========*/
+
+The InstaAppointment Lite is ready for translation. Translation files are in /languages.

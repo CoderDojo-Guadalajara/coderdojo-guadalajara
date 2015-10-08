@@ -1,0 +1,25 @@
+//
+// Navbars
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Brand/project name
+* ==========================================================================
+*/
+
+.navbar-brand {
+  font-size: @font-size-large-2x;  
+}
+
+.navbar-brand-image {
+  float: left;
+  padding: 0 @navbar-padding-horizontal;
+
+  @media (min-width: @grid-float-breakpoint) {
+    .navbar > .container & {
+      margin-left: -@navbar-padding-horizontal;
+    }
+  }  
+
+}

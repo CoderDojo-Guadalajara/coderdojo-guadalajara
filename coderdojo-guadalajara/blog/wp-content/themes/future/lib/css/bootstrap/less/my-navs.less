@@ -1,0 +1,82 @@
+//
+// Navs
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Pills
+* ==========================================================================
+*/
+
+.nav-pills {
+  > li {
+    
+    // Active state
+    &.selected > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @nav-pills-active-link-hover-color;
+        background-color: @nav-pills-active-link-hover-bg;
+
+        .caret {
+          border-top-color: @nav-pills-active-link-hover-color;
+          border-bottom-color: @nav-pills-active-link-hover-color;
+        }
+      }
+    }
+  
+  }
+}
+
+
+/*
+* ==========================================================================
+* Pills Custom
+* ==========================================================================
+*/
+
+.nav-pills-custom {
+	
+	> .nav-pills {
+		 
+		 > li {
+			
+			float: none;
+			display: inline;
+
+			// Links rendered as pills
+		    > a {
+		      border-radius: @nav-pills-border-radius;
+		    }
+		    + li {
+		      margin-left: 2px;
+		    }
+			
+			> a,
+			> span {
+			  
+			  display: inline-block;
+			  padding: 5px 14px;
+			  
+			  	&.active,
+				&.selected,
+			    &:hover,
+			    &:focus {
+			    	
+			    	color: @nav-pills-active-link-hover-color;
+			        background-color: @nav-pills-active-link-hover-bg;
+
+			        .caret {
+			          border-top-color: @nav-pills-active-link-hover-color;
+			          border-bottom-color: @nav-pills-active-link-hover-color;
+			      	}
+			    }
+			  
+			}
+			
+		}
+	
+	}
+	
+}

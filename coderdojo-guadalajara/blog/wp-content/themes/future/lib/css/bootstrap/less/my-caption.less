@@ -1,0 +1,125 @@
+//
+// Captions
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Project Caption
+* ==========================================================================
+*/
+
+.project-caption {
+	& figure {
+		
+		margin: 0;
+    	position: relative;		
+		overflow: hidden;		
+		
+		& img {
+			-webkit-transition: -webkit-transform 0.4s;
+			-moz-transition: -moz-transform 0.4s;
+			transition: transform 0.4s;
+		}
+		
+		&.cs-hover {			
+			& img {			
+				-webkit-transform: translateY(-50px);
+				-moz-transform: translateY(-50px);
+				-ms-transform: translateY(-50px);
+				transform: translateY(-50px);				
+			}
+			figcaption {
+				opacity: 1;
+				-webkit-transform: translateY(0px);
+				-moz-transform: translateY(0px);
+				-ms-transform: translateY(0px);
+				transform: translateY(0px);
+				-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+				-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+				transition: transform 0.4s, opacity 0.1s;
+			}			
+		}
+		
+	}
+	& figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 20px;
+		background: @figcaption-bg;
+		color: #ed4e6e;
+		
+		height: 100px;
+		width: 100%;
+		top: auto;
+		bottom: 0;
+		opacity: 0;
+		
+		-webkit-transform: translateY(100%);
+		-moz-transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		transform: translateY(100%);
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+		transition: transform 0.4s, opacity 0.1s 0.3s;
+		
+		& .project-caption-title {
+			color: @caption-title-color;
+			margin: 0 0 5px 0;
+			padding: 0;
+		}
+		
+		& .project-caption-icon {
+			color: @caption-icon-link-color;
+			
+			&.project-caption-view {
+				margin-right: 10px;
+			}
+			
+		}
+
+		& a.project-caption-icon {
+		  	color: @caption-icon-link-color;
+		  	&:hover,
+		  	&:focus {
+		    	color: @caption-icon-link-hover-color;
+			    text-decoration: none;
+			    .opacity(.9);
+		  	}
+		  	&:focus {
+		    	.tab-focus();
+		  	}
+		}
+		
+	}
+}
+
+.no-touch {
+	& .project-caption {
+		
+		& figure {
+			&:hover {
+				& img {
+					-webkit-transform: translateY(-50px);
+					-moz-transform: translateY(-50px);
+					-ms-transform: translateY(-50px);
+					transform: translateY(-50px);
+				}				
+				& figcaption {
+					opacity: 1;
+					-webkit-transform: translateY(0px);
+					-moz-transform: translateY(0px);
+					-ms-transform: translateY(0px);
+					transform: translateY(0px);
+					-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+					-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+					transition: transform 0.4s, opacity 0.1s;
+				}
+			}
+		}
+		
+	}
+}

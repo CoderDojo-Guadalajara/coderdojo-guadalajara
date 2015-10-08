@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+echo "Contacto";
+?>
+=======
 echo "Contacto con CoderDojo <br>";
 echo "Favor de realizar las dudas por este medio <br>";
 ?>
@@ -17,3 +21,4 @@ echo "Favor de realizar las dudas por este medio <br>";
 		</section>
 	</body>
 </html>
+>>>>>>> master

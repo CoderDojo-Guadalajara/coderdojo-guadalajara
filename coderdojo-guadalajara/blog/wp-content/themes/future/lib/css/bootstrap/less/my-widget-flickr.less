@@ -1,0 +1,23 @@
+//
+// Flickr Widget
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Flickr Widget
+* ==========================================================================
+*/
+
+.widget-flickr-stream-queue {
+	position: relative;
+	background: url(images/loading.gif) 50% 50% no-repeat;
+	&:before {
+		content:"\00a0";
+	}
+	& .item {
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+	}	
+}

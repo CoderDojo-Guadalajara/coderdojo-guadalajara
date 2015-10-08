@@ -1,0 +1,972 @@
+//
+// Social Media Widget
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Social Media Widget
+* ==========================================================================
+*/
+
+.widget-socialmedia {
+
+	> ul {
+		
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		.clearfix();
+
+		> li {
+
+			position: relative;
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+
+			> a {
+		    	
+		    	position: relative;
+		    	display: block;
+		    	margin: 2px 4px 2px 0;
+		    	padding: 0;
+
+		    	text-indent: -9999px;
+				font-size: 0;
+				line-height: 0;
+				overflow: hidden;
+				
+			    border-radius: 2px;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+
+		    }
+		
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Transition
+* ==========================================================================
+*/
+
+.socialmedia-interface-tran-ease {
+		
+	> li {
+		> a {			
+			.transition(all .2s ease);		
+		}
+	}
+
+}
+
+.socialmedia-interface-tran-step-start {
+		
+	> li {
+		> a {			
+			.transition(all .2s step-start);		
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interfaces
+* ==========================================================================
+*/
+
+.socialmedia-interface-one {
+		
+	> li {
+		> a {
+			
+			background: transparent url(images/social-interface-one.png) no-repeat 0 0;
+		
+		}
+	}
+
+}
+
+.socialmedia-interface-two {
+		
+	> li {
+		> a {
+			
+			background: transparent url(images/social-interface-two.png) no-repeat 0 0;
+		
+		}
+	}
+
+}
+
+.socialmedia-interface-three {
+		
+	> li {
+		> a {
+			
+			background: transparent url(images/social-interface-three.png) no-repeat 0 0;
+		
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Sizes
+* ==========================================================================
+*/
+
+.socialmedia-interface-size-30,
+.socialmedia-interface-size-30r {
+		
+	> li {
+		> a {
+			
+			width: 30px;
+			height: 30px;	
+			background-size: auto 60px;
+		
+		}
+	}
+
+}
+
+.socialmedia-interface-size-55,
+.socialmedia-interface-size-55r {
+		
+	> li {
+		> a {
+			
+			width: 55px;
+			height: 55px;	
+			background-size: auto 110px;
+		
+		}
+	}
+
+}
+
+.socialmedia-interface-size-80,
+.socialmedia-interface-size-80r {
+		
+	> li {
+		> a {
+			
+			width: 80px;
+			height: 80px;	
+			background-size: auto 160px;
+		
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Sizes Fallback
+* ==========================================================================
+*/
+
+.no-backgroundsize {
+	
+	& .socialmedia-interface-one,
+	& .socialmedia-interface-two,
+	& .socialmedia-interface-three {
+		
+		&.socialmedia-interface-size-30,
+		&.socialmedia-interface-size-30r {
+			> li {
+				> a {
+					background: transparent url(images/social-interface-retina-fallback-30.png) no-repeat 0 0;
+				}
+			}
+		}
+
+		&.socialmedia-interface-size-55,
+		&.socialmedia-interface-size-55r {
+			> li {
+				> a {
+					background: transparent url(images/social-interface-retina-fallback-55.png) no-repeat 0 0;
+				}
+			}
+		}
+
+		&.socialmedia-interface-size-80,
+		&.socialmedia-interface-size-80r {
+			> li {
+				> a {
+					background: transparent url(images/social-interface-retina-fallback-80.png) no-repeat 0 0;
+				}
+			}
+		}
+	
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Size 30 Icons
+* ==========================================================================
+*/
+
+.socialmedia-interface-size-30 {
+		
+	> li.facebook {
+		> a {
+			background-position: 0 1px;
+			&:hover {
+				background-position: 0 -30px;
+			};
+		}
+	}
+
+	> li.twitter {
+		> a {
+			background-position: -30px 1px;
+			&:hover {
+				background-position: -30px -30px;
+			};
+		}
+	}
+
+	> li.gplus {
+		> a {
+			background-position: -60px 1px;
+			&:hover {
+				background-position: -60px -30px;
+			};
+		}
+	}
+
+	> li.linkedin {
+		> a {
+			background-position: -90px 1px;
+			&:hover {
+				background-position: -90px -30px;
+			};
+		}
+	}
+
+	> li.pinterest {
+		> a {
+			background-position: -120px 1px;
+			&:hover {
+				background-position: -120px -30px;
+			};
+		}
+	}
+
+	> li.dribbble {
+		> a {
+			background-position: -150px 1px;
+			&:hover {
+				background-position: -150px -30px;
+			};
+		}
+	}
+
+	> li.flickr {
+		> a {
+			background-position: -180px 1px;
+			&:hover {
+				background-position: -180px -30px;
+			};
+		}
+	}
+
+	> li.skype {
+		> a {
+			background-position: -210px 1px;
+			&:hover {
+				background-position: -210px -30px;
+			};
+		}
+	}
+
+	> li.rss {
+		> a {
+			background-position: -240px 1px;
+			&:hover {
+				background-position: -240px -30px;
+			};
+		}
+	}
+
+	> li.wordpress {
+		> a {
+			background-position: -270px 1px;
+			&:hover {
+				background-position: -270px -30px;
+			};
+		}
+	}
+
+	> li.youtube {
+		> a {
+			background-position: -300px 1px;
+			&:hover {
+				background-position: -300px -30px;
+			};
+		}
+	}
+
+	> li.vimeo {
+		> a {
+			background-position: -330px 1px;
+			&:hover {
+				background-position: -330px -30px;
+			};
+		}
+	}
+
+	> li.instagram {
+		> a {
+			background-position: -360px 1px;
+			&:hover {
+				background-position: -360px -30px;
+			};
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Size 30r Icons
+* ==========================================================================
+*/
+
+.socialmedia-interface-size-30r {
+		
+	> li.facebook {
+		> a {
+			background-position: 0 -30px;
+			&:hover {
+				background-position: 0 1px;
+			};
+		}
+	}
+
+	> li.twitter {
+		> a {
+			background-position: -30px -30px;
+			&:hover {
+				background-position: -30px 1px;
+			};
+		}
+	}
+
+	> li.gplus {
+		> a {
+			background-position: -60px -30px;
+			&:hover {
+				background-position: -60px 1px;
+			};
+		}
+	}
+
+	> li.linkedin {
+		> a {
+			background-position: -90px -30px;
+			&:hover {
+				background-position: -90px 1px;
+			};
+		}
+	}
+
+	> li.pinterest {
+		> a {
+			background-position: -120px -30px;
+			&:hover {
+				background-position: -120px 1px;
+			};
+		}
+	}
+
+	> li.dribbble {
+		> a {
+			background-position: -150px -30px;
+			&:hover {
+				background-position: -150px 1px;
+			};
+		}
+	}
+
+	> li.flickr {
+		> a {
+			background-position: -180px -30px;
+			&:hover {
+				background-position: -180px 1px;
+			};
+		}
+	}
+
+	> li.skype {
+		> a {
+			background-position: -210px -30px;
+			&:hover {
+				background-position: -210px 1px;
+			};
+		}
+	}
+
+	> li.rss {
+		> a {
+			background-position: -240px -30px;
+			&:hover {
+				background-position: -240px 1px;
+			};
+		}
+	}
+
+	> li.wordpress {
+		> a {
+			background-position: -270px -30px;
+			&:hover {
+				background-position: -270px 1px;
+			};
+		}
+	}
+
+	> li.youtube {
+		> a {
+			background-position: -300px -30px;
+			&:hover {
+				background-position: -300px 1px;
+			};
+		}
+	}
+
+	> li.vimeo {
+		> a {
+			background-position: -330px -30px;
+			&:hover {
+				background-position: -330px 1px;
+			};
+		}
+	}
+
+	> li.instagram {
+		> a {
+			background-position: -360px -30px;
+			&:hover {
+				background-position: -360px 1px;
+			};
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Size 55 Icons
+* ==========================================================================
+*/
+
+.socialmedia-interface-size-55 {
+		
+	> li.facebook {
+		> a {
+			background-position: 0 1px;
+			&:hover {
+				background-position: 0 -55px;
+			};
+		}
+	}
+
+	> li.twitter {
+		> a {
+			background-position: -55px 1px;
+			&:hover {
+				background-position: -55px -55px;
+			};
+		}
+	}
+
+	> li.gplus {
+		> a {
+			background-position: -110px 1px;
+			&:hover {
+				background-position: -110px -55px;
+			};
+		}
+	}
+
+	> li.linkedin {
+		> a {
+			background-position: -165px 1px;
+			&:hover {
+				background-position: -165px -55px;
+			};
+		}
+	}
+
+	> li.pinterest {
+		> a {
+			background-position: -220px 1px;
+			&:hover {
+				background-position: -220px -55px;
+			};
+		}
+	}
+
+	> li.dribbble {
+		> a {
+			background-position: -275px 1px;
+			&:hover {
+				background-position: -275px -55px;
+			};
+		}
+	}
+
+	> li.flickr {
+		> a {
+			background-position: -330px 1px;
+			&:hover {
+				background-position: -330px -55px;
+			};
+		}
+	}
+
+	> li.skype {
+		> a {
+			background-position: -385px 1px;
+			&:hover {
+				background-position: -385px -55px;
+			};
+		}
+	}
+
+	> li.rss {
+		> a {
+			background-position: -440px 1px;
+			&:hover {
+				background-position: -440px -55px;
+			};
+		}
+	}
+
+	> li.wordpress {
+		> a {
+			background-position: -495px 1px;
+			&:hover {
+				background-position: -495px -55px;
+			};
+		}
+	}
+
+	> li.youtube {
+		> a {
+			background-position: -550px 1px;
+			&:hover {
+				background-position: -550px -55px;
+			};
+		}
+	}
+
+	> li.vimeo {
+		> a {
+			background-position: -605px 1px;
+			&:hover {
+				background-position: -605px -55px;
+			};
+		}
+	}
+
+	> li.instagram {
+		> a {
+			background-position: -660px 1px;
+			&:hover {
+				background-position: -660px -55px;
+			};
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Size 55r Icons
+* ==========================================================================
+*/
+
+.socialmedia-interface-size-55r {
+		
+	> li.facebook {
+		> a {
+			background-position: 0 -55px;
+			&:hover {
+				background-position: 0 1px;
+			};
+		}
+	}
+
+	> li.twitter {
+		> a {
+			background-position: -55px -55px;
+			&:hover {
+				background-position: -55px 1px;
+			};
+		}
+	}
+
+	> li.gplus {
+		> a {
+			background-position: -110px -55px;
+			&:hover {
+				background-position: -110px 1px;
+			};
+		}
+	}
+
+	> li.linkedin {
+		> a {
+			background-position: -165px -55px;
+			&:hover {
+				background-position: -165px 1px;
+			};
+		}
+	}
+
+	> li.pinterest {
+		> a {
+			background-position: -220px -55px;
+			&:hover {
+				background-position: -220px 1px;
+			};
+		}
+	}
+
+	> li.dribbble {
+		> a {
+			background-position: -275px -55px;
+			&:hover {
+				background-position: -275px 1px;
+			};
+		}
+	}
+
+	> li.flickr {
+		> a {
+			background-position: -330px -55px;
+			&:hover {
+				background-position: -330px 1px;
+			};
+		}
+	}
+
+	> li.skype {
+		> a {
+			background-position: -385px -55px;
+			&:hover {
+				background-position: -385px 1px;
+			};
+		}
+	}
+
+	> li.rss {
+		> a {
+			background-position: -440px -55px;
+			&:hover {
+				background-position: -440px 1px;
+			};
+		}
+	}
+
+	> li.wordpress {
+		> a {
+			background-position: -495px -55px;
+			&:hover {
+				background-position: -495px 1px;
+			};
+		}
+	}
+
+	> li.youtube {
+		> a {
+			background-position: -550px -55px;
+			&:hover {
+				background-position: -550px 1px;
+			};
+		}
+	}
+
+	> li.vimeo {
+		> a {
+			background-position: -605px -55px;
+			&:hover {
+				background-position: -605px 1px;
+			};
+		}
+	}
+
+	> li.instagram {
+		> a {
+			background-position: -660px -55px;
+			&:hover {
+				background-position: -660px 1px;
+			};
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Size 80 Icons
+* ==========================================================================
+*/
+
+.socialmedia-interface-size-80 {
+		
+	> li.facebook {
+		> a {
+			background-position: 0 1px;
+			&:hover {
+				background-position: 0 -80px;
+			};
+		}
+	}
+
+	> li.twitter {
+		> a {
+			background-position: -80px 1px;
+			&:hover {
+				background-position: -80px -80px;
+			};
+		}
+	}
+
+	> li.gplus {
+		> a {
+			background-position: -160px 1px;
+			&:hover {
+				background-position: -160px -80px;
+			};
+		}
+	}
+
+	> li.linkedin {
+		> a {
+			background-position: -240px 1px;
+			&:hover {
+				background-position: -240px -80px;
+			};
+		}
+	}
+
+	> li.pinterest {
+		> a {
+			background-position: -320px 1px;
+			&:hover {
+				background-position: -320px -80px;
+			};
+		}
+	}
+
+	> li.dribbble {
+		> a {
+			background-position: -400px 1px;
+			&:hover {
+				background-position: -400px -80px;
+			};
+		}
+	}
+
+	> li.flickr {
+		> a {
+			background-position: -480px 1px;
+			&:hover {
+				background-position: -480px -80px;
+			};
+		}
+	}
+
+	> li.skype {
+		> a {
+			background-position: -560px 1px;
+			&:hover {
+				background-position: -560px -80px;
+			};
+		}
+	}
+
+	> li.rss {
+		> a {
+			background-position: -640px 1px;
+			&:hover {
+				background-position: -640px -80px;
+			};
+		}
+	}
+
+	> li.wordpress {
+		> a {
+			background-position: -720px 1px;
+			&:hover {
+				background-position: -720px -80px;
+			};
+		}
+	}
+
+	> li.youtube {
+		> a {
+			background-position: -800px 1px;
+			&:hover {
+				background-position: -800px -80px;
+			};
+		}
+	}
+
+	> li.vimeo {
+		> a {
+			background-position: -880px 1px;
+			&:hover {
+				background-position: -880px -80px;
+			};
+		}
+	}
+
+	> li.instagram {
+		> a {
+			background-position: -960px 1px;
+			&:hover {
+				background-position: -960px -80px;
+			};
+		}
+	}
+
+}
+
+/*
+* ==========================================================================
+* Social Media Retina Interface Size 80r Icons
+* ==========================================================================
+*/
+
+.socialmedia-interface-size-80r {
+		
+	> li.facebook {
+		> a {
+			background-position: 0 -80px;
+			&:hover {
+				background-position: 0 1px;
+			};
+		}
+	}
+
+	> li.twitter {
+		> a {
+			background-position: -80px -80px;
+			&:hover {
+				background-position: -80px 1px;
+			};
+		}
+	}
+
+	> li.gplus {
+		> a {
+			background-position: -160px -80px;
+			&:hover {
+				background-position: -160px 1px;
+			};
+		}
+	}
+
+	> li.linkedin {
+		> a {
+			background-position: -240px -80px;
+			&:hover {
+				background-position: -240px 1px;
+			};
+		}
+	}
+
+	> li.pinterest {
+		> a {
+			background-position: -320px -80px;
+			&:hover {
+				background-position: -320px 1px;
+			};
+		}
+	}
+
+	> li.dribbble {
+		> a {
+			background-position: -400px -80px;
+			&:hover {
+				background-position: -400px 1px;
+			};
+		}
+	}
+
+	> li.flickr {
+		> a {
+			background-position: -480px -80px;
+			&:hover {
+				background-position: -480px 1px;
+			};
+		}
+	}
+
+	> li.skype {
+		> a {
+			background-position: -560px -80px;
+			&:hover {
+				background-position: -560px 1px;
+			};
+		}
+	}
+
+	> li.rss {
+		> a {
+			background-position: -640px -80px;
+			&:hover {
+				background-position: -640px 1px;
+			};
+		}
+	}
+
+	> li.wordpress {
+		> a {
+			background-position: -720px -80px;
+			&:hover {
+				background-position: -720px 1px;
+			};
+		}
+	}
+
+	> li.youtube {
+		> a {
+			background-position: -800px -80px;
+			&:hover {
+				background-position: -800px 1px;
+			};
+		}
+	}
+
+	> li.vimeo {
+		> a {
+			background-position: -880px -80px;
+			&:hover {
+				background-position: -880px 1px;
+			};
+		}
+	}
+
+	> li.instagram {
+		> a {
+			background-position: -960px -80px;
+			&:hover {
+				background-position: -960px 1px;
+			};
+		}
+	}
+
+}

@@ -1,0 +1,44 @@
+/*
+WP-PAGINATE
+*/
+
+.navigation {
+	float: left;
+	margin: 0 20px 30px -2px;
+	width: 100%;
+	text-align: center;
+}
+
+ol.wp-paginate {
+	list-style-type: none;
+}
+	
+ol.wp-paginate li {
+	display: inline !important;
+}
+
+ol.wp-paginate li span {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 4px 10px 6px 10px;
+	margin: 2px;
+	width: 10px;
+	background-color: #fff;
+}
+
+ol.wp-paginate li a {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 4px 10px 6px 10px;
+	margin: 2px;
+	width: 10px;
+	background-color: #3cb5c7;
+	color: #000;
+}
+
+ol.wp-paginate li a:hover {
+	background-color: #80c3cd;
+}
+

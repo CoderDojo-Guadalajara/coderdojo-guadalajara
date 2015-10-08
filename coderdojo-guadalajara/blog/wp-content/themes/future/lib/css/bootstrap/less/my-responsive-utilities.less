@@ -1,0 +1,27 @@
+//
+// Responsive: Utility classes
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Text Alignment utilities
+* ==========================================================================
+*/
+
+.media-center-xs,
+.text-left,
+.text-right,
+.text-center {
+   
+   @media (max-width: @screen-xs-max) {
+        text-align: center;
+        & ul,
+        & ol {
+            list-style: none;
+        }
+        & img {
+            margin: 0 auto;
+        }
+    }
+
+}
