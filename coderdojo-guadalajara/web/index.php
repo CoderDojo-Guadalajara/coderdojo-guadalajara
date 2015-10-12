@@ -1,33 +1,35 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>CoderDojo Guadalajara</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="fonts/madman.ttf">
 	</head>
 
 	<body>
 		
-        	<header id="main_container">
-        		<img align="left" id="logo_Principal" src="images/LogoCoderDojo.png">
-            	<h1 id="titulo_principal">CoderDojo Guadalajara</h1>
+        	<header class="menu_principal" id="main_container">
+        		<img class="menu_principal" align="left" id="logo_Principal" src="images/LogoCoderDojo.png">
+            	<h1 class="menu_principal" id="titulo_principal">CoderDojo Guadalajara</h1>
           
 
             		<nav class="menu_principal">
-                		<ul align="center">
-                    		<li><a href="#">Inicio</a></li>
-                    		<li><a href="#">¿Qué es CoderDojo?</a></li>
-                    		<li><a href="#">CoderDojo Guadalajara</a></li>
-                    		<li><a href="#">¿Dónde y cuándo?</a></li>
-                    		<li><a href="#">¿Cómo puedo participar?</a></li>
-                    		<li><a href="#">Contacto</a></li>
-                    		<li><a href="#">Línea del tiempo</a></li>
+                		<ul class="menu_principal" align="center">
+                    		<li class="menu_principal"><a href="#">Inicio</a></li>
+                    		<li class="menu_principal"><a href="#">¿Qué es CoderDojo?</a></li>
+                    		<li class="menu_principal"><a href="#">CoderDojo Guadalajara</a></li>
+                    		<li class="menu_principal"><a href="#">¿Dónde y cuándo?</a></li>
+                    		<li class="menu_principal"><a href="#">¿Cómo puedo participar?</a></li>
+                    		<li class="menu_principal"><a href="#">Contacto</a></li>
+                    		<li class="menu_principal"><a href="#">Línea del tiempo</a></li>
                 		</ul>
             		</nav>
         	</header>
        
         <section class="contenido">
-        	<!--<article id="inicio">
-        	   <h2>Bienvenidos</h2>
+        	<article id="inicio">
+        	   <!--<h2>Bienvenidos</h2>
                <p>Les invitamos a conocer lo que tenemos para ustedes.</p>
             </article>-->
 
@@ -117,17 +119,17 @@
             </article>
         </section>
         
-        <footer id="footerMain">
+        <footer class="footer" id="footerMain">
            
-            <section id="footDireccion">
+            <section class="footer" id="footDireccion">
                 <p>Ubicación: Plaza Bonita, Local R10. Avenida México #3370, Colonia Monraz; Guadalajara, Jalisco, México. C.P. 44670.</p>
                
             </section>
-            <section id="footContacto">
+            <section class="footer" id="footContacto">
                 <p>Teléfono: 15957854</p>
                  <p>Contacto: coderdojo.guadalajara@gmail.com, coderdojo@soluciones5w.com</p>
             </section>
-             <section id="footRedesSociales">
+             <section class="footer" id="footRedesSociales">
             </section>
             
         </footer>

@@ -15,7 +15,7 @@ html, body
 	width:100%;
 	position: fixed;
 	z-index: 100;
-	background: #ffffff;
+	
 	/*
     float:left;
     text-align: center;*/
@@ -32,6 +32,16 @@ html, body
 	text-align: center;
 	font-size: 40px;
 	margin: 15px 10px 15px 10px;
+}
+
+.menu_principal
+{
+    background: #20B2AA;
+}
+
+.footer
+{
+    background: #20B2AA;
 }
 
 .menu_principal ul
