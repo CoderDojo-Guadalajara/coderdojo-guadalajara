@@ -1,0 +1,297 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// Global values
+// --------------------------------------------------
+
+
+// Grays
+// -------------------------
+
+@gray-lightest: 									#fff;
+@gray-darkest: 										#000;
+@gray-light-80:             						lighten(#000, 80%);   // #ccc
+
+
+// Brand colors
+// -------------------------
+
+@brand-primary:         							#e21c2b;
+@brand-primary-bootstrap:  							#428bca;
+@brand-primary-border: 								@gray-lighter;
+@brand-secondary-border:							@gray-light-80;
+
+
+// Scaffolding
+// -------------------------
+
+@layout-width-md:									@container-md + 10;
+@layout-width-lg:									@container-lg + 30;
+@layout-margin: 									50px; // Used for boxed layout
+
+
+// Typography
+// -------------------------
+
+@font-family-primary: 	 							'Open Sans', Arial, Helvetica, sans-serif;
+@font-family-secondary: 							'Roboto', Arial, Helvetica, sans-serif;
+
+@font-family-base:        							@font-family-primary;
+
+@font-size-large-2x:       							ceil(@font-size-base * 2.14); // ~30px
+@line-height-base: 									1.538461538; // 20/13
+
+@headings-font-family: 								@font-family-secondary;
+@headings-font-weight: 								400;
+
+
+// Buttons
+// -------------------------
+
+@btn-primary-bootstrap-color: 						@gray-lightest;
+@btn-primary-bootstrap-bg: 							@brand-primary-bootstrap;
+@btn-primary-bootstrap-border: 						darken(@btn-primary-bootstrap-bg, 5%);
+
+
+// Navbar
+// -------------------------
+
+// Basics of a navbar
+@navbar-height:                    					80px;
+@navbar-margin-bottom:            					0;
+
+// Inverted navbar
+//
+// Reset inverted navbar basics
+@navbar-inverse-color: 								@gray-lightest;
+@navbar-inverse-bg: 								@brand-primary;
+
+// Inverted navbar links
+@navbar-inverse-link-color: 						@gray-lightest;
+@navbar-inverse-link-hover-color: 					@gray-lighter;
+
+// Inverted navbar toggle
+@navbar-inverse-toggle-hover-bg:            		darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-toggle-icon-bar-bg:         		@gray-lightest;
+@navbar-inverse-toggle-border-color:        		darken(@navbar-inverse-bg, 10%);
+
+
+// Carousel
+// ------------------------
+
+@carousel-control-width:                      		10%;
+
+
+// Caption
+// ------------------------
+
+@caption-bg: 			                     		@brand-primary;
+@figcaption-bg: 			                     	@caption-bg;
+@caption-title-color:		                     	@gray-lightest;
+@caption-icon-link-color:        					darken(@figcaption-bg, 10%);
+@caption-icon-link-hover-color:    					darken(@figcaption-bg, 20%);
+
+
+// Font Sizes
+// -------------------------
+
+@font-size-12: 										12px;
+@font-size-13: 										13px;
+@font-size-14: 										14px;
+@font-size-15: 										15px;
+@font-size-16: 										16px;
+@font-size-18: 										18px;
+@font-size-20: 										20px;
+@font-size-22: 										22px;
+@font-size-24: 										24px;
+@font-size-28: 										28px;
+@font-size-32: 										32px;
+@font-size-36: 										36px;
+@font-size-40: 										40px;
+@font-size-44: 										44px;
+@font-size-48: 										48px;
+@font-size-52: 										52px;
+@font-size-56: 										56px;
+@font-size-60: 										60px;
+@font-size-64: 										64px;
+@font-size-68: 										68px;
+@font-size-72: 										72px;
+@font-size-76: 										76px;
+@font-size-80: 										80px;
+@font-size-84: 										84px;
+@font-size-88: 										88px;
+@font-size-92: 										92px;
+@font-size-96: 										96px;
+@font-size-100:										100px;
+
+
+// Loop Meta
+// -------------------------
+
+@loop-meta-text-color: 								@gray-dark;
+@loop-meta-link-color: 								@loop-meta-text-color;
+@loop-meta-link-hover-color: 						lighten(@loop-meta-link-color, 15%);
+
+@loop-meta-font-family: 							@font-family-secondary;
+@loop-meta-font-size:								floor(@font-size-base * 2.60); // ~36px
+@loop-meta-font-weight: 							500;
+@loop-meta-line-height: 							1.1;
+
+@loop-meta-letter-spacing: 							10px;
+@loop-meta-text-transform: 							uppercase;
+
+@loop-meta-padding: 								50px;
+@loopmeta-border-color:               				@brand-primary-border;
+
+
+// Content / Sidebar
+// -------------------------
+
+@content-padding: 									50px; // For XS Display
+@content-sidebar-padding: 							@content-padding;
+
+
+// Site Footer
+// -------------------------
+
+// Footer Sidebars
+@footer-sidebars-bg: 								@brand-primary;
+@footer-sidebars-border-color:        				darken(@footer-sidebars-bg, 10%);
+@footer-sidebars-padding:							50px;
+
+@footer-sidebar-margin:								50px; // For XS Display
+
+// Footer Tail Sidebars
+@footer-tail-sidebars-bg: 							darken(@footer-sidebars-bg, 10%);
+@footer-tail-sidebars-border-color:        			darken(@footer-tail-sidebars-bg, 10%);
+@footer-tail-sidebars-padding:						25px;
+
+
+// Post Entry
+// -------------------------
+
+// Basics of entry wrapper
+@entry-wrapper-margin:          					50px;
+@entry-wrapper-single-padding:     					50px;
+@entry-wrapper-single-border-color:    				@brand-primary-border;
+
+// Post Author Wrapper
+@entry-post-author-wrapper-margin: 					50px;
+
+// Entry Title
+@entry-title-text-color:							@gray-dark;
+@entry-title-link-color:							@entry-title-text-color;
+@entry-title-link-hover-color: 						lighten(@entry-title-link-color, 15%);
+
+@entry-title-margin-top: 							0;
+@entry-title-margin-bottom: 						20px;
+
+// Entry Meta
+@entry-meta-font-size:								floor(@font-size-base * .95); // ~13px
+
+@entry-meta-text-color:								@gray-dark;
+@entry-meta-link-color:								@entry-meta-text-color;
+@entry-meta-link-hover-color: 						lighten(@entry-meta-link-color, 15%);
+
+@entry-meta-top-margin-top:							0;
+@entry-meta-top-margin-bottom: 						10px;
+
+
+// Comments
+// -------------------------
+
+@comments-margin: 									40px;
+@respond-margin: 									40px;
+@comment-bypostauthor-border-color:					@brand-primary;
+
+
+// Respond
+// -------------------------
+
+@respond-required-color: 							@brand-danger;
+
+
+// Portfolio
+// -------------------------
+
+@portfolio-layout-padding:							50px;
+@portfolio-template-filters-margin: 				50px;
+@portfolio-template-pagination-margin:				50px;
+
+
+// Widget
+// -------------------------
+
+// Basics of a widget
+@widget-text-color:									@gray-dark;
+@widget-link-color:									@widget-text-color;
+@widget-link-hover-color: 							lighten(@widget-link-color, 15%);
+
+@widget-border-color:               				@brand-secondary-border;
+@widget-padding-bottom:          					25px;
+@widget-margin-bottom:          					25px;
+
+// Widget Title
+@widget-title-text-color:							@gray-dark;
+@widget-title-font-family:							@font-family-primary;
+@widget-title-font-family-secondary:				@font-family-secondary;
+@widget-title-font-size:   							ceil(@font-size-base * 1.12); // ~16px
+@widget-title-margin-top: 							0;
+@widget-title-margin-bottom: 						25px;
+
+// Inverted Widget
+@widget-inverse-bg: 								@brand-primary; // For reference only. Actual implementation will be via sidebar like "footer-sidebars" etc
+@widget-inverse-text-color:							@gray-lighter;
+@widget-inverse-border-color:						darken(@widget-inverse-bg, 10%);
+
+// Inverted Widget Title
+@widget-inverse-title-text-color:					@gray-lightest;
+
+// Inverted Widget Links
+@widget-inverse-link-color: 						@gray-lighter;
+@widget-inverse-link-hover-color: 					@gray-lightest;
+
+
+// Slide Widget
+// -------------------------
+
+@slide-title-font-size: 							floor(@font-size-base * 2.60); // ~36px - Deprecated
+@slide-content-font-size: 							floor(@font-size-base * 1.15); // ~16px - Deprecated
+
+
+// Services Widget
+// -------------------------
+
+@services-widget-padding-row:						40px;
+@services-widget-padding-col:						20px;
+
+
+// Callout Widget
+// -------------------------
+
+@callout-headings-line-height:						1.3;
+@callout-widget-title-margin: 						50px;
+@callout-widget-btn-margin: 						20px;
+@callout-widget-image-margin: 						40px;
+
+
+// Staff Widget
+// -------------------------
+
+@staff-widget-padding-row:							40px;
+@staff-widget-padding-col:							20px;
+
+
+// Icon List Widget
+// -------------------------
+
+@iconlist-icon-font-size: 							18px;
+
+
+// Progress Bar Widget
+// -------------------------
+
+@progressbar-widget-progress-height:				floor(@line-height-computed * 1.5);
+@progressbar-widget-title-font-size:				floor(@font-size-base * 1.15); // ~16px

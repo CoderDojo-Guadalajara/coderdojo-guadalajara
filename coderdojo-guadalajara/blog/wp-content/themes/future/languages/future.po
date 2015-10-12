@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Future 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-19 16:46+0500\n"
+"PO-Revision-Date: 2013-12-19 16:47+0500\n"
+"Last-Translator: Arafat Ashraf <life.object@gmail.com>\n"
+"Language-Team: DesignOrbital <designorbital@live.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr\n"
+"X-Poedit-Basepath: E:\\wamp\\www\\themesfree\\wp-content\\themes\\future\\\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18
+#, php-format
+msgid ""
+"Just kidding! You tried going to %s, which doesn't exist, so that means I "
+"probably broke something."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"The following is a list of the latest posts from the blog. Maybe it will "
+"help you find what you're looking for."
+msgstr ""
+
+#: comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:36
+msgid "&larr; Older"
+msgstr ""
+
+#: comments.php:40
+msgid "Newer &rarr;"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:75
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:76
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:77
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:81
+msgid "Comment"
+msgstr ""
+
+#: content-aside.php:11 content-audio.php:11 content-chat.php:11
+#: content-gallery.php:11 content-image.php:11 content-link.php:11
+#: content-quote.php:11 content-search-page.php:9 content-video.php:11
+#: content.php:13
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: loop-error.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: loop-error.php:4
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: loop-meta.php:7 loop-meta.php:20 loop-meta.php:36 loop-meta.php:49
+#: loop-meta.php:62 loop-meta.php:75 loop-meta.php:88 sidebar.php:32
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: loop-meta.php:50
+#, php-format
+msgid "You are browsing the search results for %s"
+msgstr ""
+
+#: loop-meta.php:63
+msgid "You are browsing the site archives by date."
+msgstr ""
+
+#: loop-meta.php:76
+msgid "You are browsing the site archives by month."
+msgstr ""
+
+#: loop-meta.php:89
+msgid "You are browsing the site archives by year."
+msgstr ""
+
+#: loop-meta.php:101 sidebar.php:25
+msgid "Archives"
+msgstr ""
+
+#: loop-meta.php:102
+msgid "You are browsing the site archives."
+msgstr ""
+
+#: loop-meta.php:114
+msgid "404"
+msgstr ""
+
+#: loop-meta.php:115
+msgid "Whoah! You broke something!"
+msgstr ""
+
+#: loop-meta.php:129
+msgid "Blog"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:19
+msgid "Recent Posts"
+msgstr ""
+
+#: sidebar.php:31
+msgid "About Future"
+msgstr ""
+
+#: lib/core.php:145
+msgid "Pages:"
+msgstr ""
+
+#: lib/core.php:147
+msgid "Next page"
+msgstr ""
+
+#: lib/core.php:148
+msgid "Previous page"
+msgstr ""
+
+#: lib/core.php:426 lib/core.php:427
+msgid "Name"
+msgstr ""
+
+#: lib/core.php:433 lib/core.php:434
+msgid "Email"
+msgstr ""
+
+#: lib/core.php:440 lib/core.php:441
+msgid "Website"
+msgstr ""
+
+#: lib/modules.php:6
+msgid "Future Primary Menu"
+msgstr ""
+
+#: lib/modules.php:44
+msgid "Primary Sidebar"
+msgstr ""
+
+#: lib/modules.php:46
+msgid "The main (primary) widget area used as a sidebar."
+msgstr ""
+
+#: lib/modules.php:50
+msgid "Footer Tail Sidebar"
+msgstr ""
+
+#: lib/modules.php:52
+msgid "Widget area for footer tail."
+msgstr ""
+
+#: lib/utils.php:57
+msgid "Future"
+msgstr ""
+
+#: lib/utils.php:144
+msgid "Featured"
+msgstr ""
+
+#: lib/utils.php:226 lib/utils.php:228 lib/utils.php:579 lib/utils.php:624
+msgid "Edit"
+msgstr ""
+
+#: lib/utils.php:244
+msgid "0 Comment"
+msgstr ""
+
+#: lib/utils.php:244
+msgid "1 Comment"
+msgstr ""
+
+#: lib/utils.php:244
+msgid "% Comments"
+msgstr ""
+
+#: lib/utils.php:401
+msgid "&laquo;"
+msgstr ""
+
+#: lib/utils.php:402
+msgid "&raquo;"
+msgstr ""
+
+#: lib/utils.php:423
+msgid "&larr; Newer"
+msgstr ""
+
+#: lib/utils.php:426
+msgid "Older &rarr;"
+msgstr ""
+
+#: lib/utils.php:436
+msgid "&larr; Previous Post"
+msgstr ""
+
+#: lib/utils.php:440
+msgid "Next Post &rarr;"
+msgstr ""
+
+#: lib/utils.php:463
+msgid "&larr; Return to"
+msgstr ""
+
+#: lib/utils.php:500
+#, php-format
+msgid "About <span itemprop=\"name\">%1$s</span>"
+msgstr ""
+
+#: lib/utils.php:531
+msgid "&copy; Copyright"
+msgstr ""
+
+#: lib/utils.php:551
+msgid "Powered by"
+msgstr ""
+
+#: lib/utils.php:617
+msgid "says"
+msgstr ""
+
+#: lib/utils.php:626
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/utils.php:638
+msgid "Reply"
+msgstr ""
+
+#: lib/utils.php:661
+msgid "Please Assign Menu: Appearance > Menus > Manage Locations"
+msgstr ""
+
+#: lib/utils.php:708 lib/utils.php:713
+msgid "Read More"
+msgstr ""
+
+#: lib/admin/admin.php:26
+msgid "Future Options"
+msgstr ""
+
+#: lib/admin/admin.php:43
+msgid "Blog Layout"
+msgstr ""
+
+#: lib/admin/admin.php:44
+msgid "Navigation Style"
+msgstr ""
+
+#: lib/admin/admin.php:49
+msgid "Post Style"
+msgstr ""
+
+#: lib/admin/admin.php:50
+msgid "Post Featured Image"
+msgstr ""
+
+#: lib/admin/admin.php:55
+msgid "Reset Theme Options"
+msgstr ""
+
+#: lib/admin/admin.php:74
+msgid "Theme Support"
+msgstr ""
+
+#: lib/admin/admin.php:84
+msgid "License"
+msgstr ""
+
+#: lib/admin/admin.php:94
+msgid "Changelog"
+msgstr ""
+
+#: lib/admin/admin.php:101
+msgid "For more information:"
+msgstr ""
+
+#: lib/admin/admin.php:103
+msgid "Future Project"
+msgstr ""
+
+#: lib/admin/admin.php:106
+msgid "Future Official Page"
+msgstr ""
+
+#: lib/admin/admin.php:156
+msgid "yes"
+msgstr ""
+
+#: lib/admin/admin.php:157
+msgid "no"
+msgstr ""
+
+#: lib/admin/admin.php:164 lib/admin/admin.php:181
+msgid "Content"
+msgstr ""
+
+#: lib/admin/admin.php:165
+msgid "Content - Sidebar"
+msgstr ""
+
+#: lib/admin/admin.php:166
+msgid "Sidebar - Content"
+msgstr ""
+
+#: lib/admin/admin.php:173
+msgid "Numeric"
+msgstr ""
+
+#: lib/admin/admin.php:174
+msgid "Older / Newer"
+msgstr ""
+
+#: lib/admin/admin.php:182
+msgid "Excerpt"
+msgstr ""
+
+#: lib/admin/admin.php:189
+msgid "Use Featured Image"
+msgstr ""
+
+#: lib/admin/admin.php:190
+msgid "Use Featured Image Automatically"
+msgstr ""
+
+#: lib/admin/admin.php:191
+msgid "No Featured Image"
+msgstr ""
+
+#: lib/admin/admin.php:245
+msgid "Customize blog by using the following settings."
+msgstr ""
+
+#: lib/admin/admin.php:262
+msgid "Select blog layout. i.e. Categories, Tags, Archives etc"
+msgstr ""
+
+#: lib/admin/admin.php:279
+msgid "Select navigation style."
+msgstr ""
+
+#: lib/admin/admin.php:286
+msgid "Customize posts by using the following settings."
+msgstr ""
+
+#: lib/admin/admin.php:303
+msgid "Select post style."
+msgstr ""
+
+#: lib/admin/admin.php:320
+msgid "<strong>Use Featured Image:</strong> which is set in the post."
+msgstr ""
+
+#: lib/admin/admin.php:321
+msgid ""
+"<strong>Use Featured Image Automatically:</strong> from the images uploaded "
+"to the post."
+msgstr ""
+
+#: lib/admin/admin.php:322
+msgid "<strong>No Featured Image:</strong> for the post."
+msgstr ""
+
+#: lib/admin/admin.php:329
+msgid "Here are the general settings to customize your blog."
+msgstr ""
+
+#: lib/admin/admin.php:338
+msgid "Reset Theme Options."
+msgstr ""
+
+#: lib/admin/page.php:9
+#, php-format
+msgid "%1$s Theme Settings"
+msgstr ""
+
+#: lib/admin/page.php:16 lib/admin/page.php:50
+msgid "Save Changes"
+msgstr ""
+
+#: lib/admin/page.php:24
+msgid "Blog Settings"
+msgstr ""
+
+#: lib/admin/page.php:25
+msgid "Post Settings"
+msgstr ""
+
+#: lib/admin/page.php:26
+msgid "General Settings"
+msgstr ""

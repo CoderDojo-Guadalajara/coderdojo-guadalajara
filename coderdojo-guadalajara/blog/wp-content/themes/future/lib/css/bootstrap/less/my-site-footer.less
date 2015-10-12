@@ -1,0 +1,44 @@
+//
+// Site Footer
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Footer Tail Sidebars
+* ==========================================================================
+*/
+
+.footer-tail-sidebars {
+	
+	background-color: @footer-tail-sidebars-bg;
+	padding-top: @footer-tail-sidebars-padding;
+	padding-bottom: @footer-tail-sidebars-padding;
+	border-top: solid 1px @footer-tail-sidebars-border-color;
+
+	&.widget-default,
+	&.widget-inverse {
+		
+		& .widget {
+			&.widget-last {
+				.widget-last();
+			}
+		}
+
+	}
+
+	.theme-info {
+		text-align: right;
+
+		@media (max-width: @screen-sm-max) {
+			text-align: left;
+			margin-top: 10px;
+		}
+
+	}
+
+	@media (max-width: @screen-xs-max) {
+		padding-top: floor(@footer-tail-sidebars-padding / 1.22);
+		padding-bottom: floor(@footer-tail-sidebars-padding / 1.22);
+	}
+
+}

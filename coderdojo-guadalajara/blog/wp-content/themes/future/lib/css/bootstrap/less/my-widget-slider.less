@@ -1,0 +1,102 @@
+//
+// Slider Widget Common
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Slider Widget Common
+* ==========================================================================
+*/
+
+.slide-caption {	
+	position: absolute; 
+	width: auto;	
+	z-index: 10;
+	padding: 0; 
+	margin: 0; 
+	zoom: 1;
+	&.slide-caption-top-left {
+		top: 45px;
+		left: 115px;
+		right: 50%;
+		text-align: left;
+	}
+	&.slide-caption-top-center {
+		left: 15%;
+		right: 15%;
+		top: 45px;		
+		text-align: center;
+	}
+	&.slide-caption-top-right {
+		top: 45px;
+		right: 115px;
+		left: 50%;
+		text-align: left;
+	}
+	&.slide-caption-bottom-left {
+		bottom: 45px;
+		left: 115px;
+		right: 50%;
+		text-align: left;
+	}
+	&.slide-caption-bottom-center {
+		bottom: 45px;
+		left: 15%;
+		right: 15%;				
+		text-align: center;
+	}
+	&.slide-caption-bottom-right {
+		bottom: 45px;
+		right: 115px;
+		left: 50%;
+		text-align: left;
+	}
+	& .slide-title {
+		margin-top: 0;
+	}
+	& .slide-content {		
+	}
+
+	@media (min-width: @screen-md) and (max-width: @screen-md-max) {
+		&.slide-caption-top-left,
+		&.slide-caption-bottom-left {			
+			right: 40%;
+		}
+		&.slide-caption-top-right,
+		&.slide-caption-bottom-right {			
+			left: 40%;
+		}
+	}
+
+	@media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+		&.slide-caption-top-left,
+		&.slide-caption-bottom-left {			
+			right: 115px;
+		}
+		&.slide-caption-top-right,
+		&.slide-caption-bottom-right  {			
+			left: 115px;
+		}
+	}
+
+	@media (max-width: @screen-xs-max) {
+		& .slide-content {			
+			& .btn {
+				.button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+			}
+		}
+		&.slide-caption-top-left,
+		&.slide-caption-top-center,
+		&.slide-caption-top-right,
+		&.slide-caption-bottom-left,
+		&.slide-caption-bottom-center,
+		&.slide-caption-bottom-right {			
+			top: auto;
+			left: 10%;
+			right: 10%;
+			bottom: -5px;					
+			text-align: center;
+		}		
+	}
+
+}

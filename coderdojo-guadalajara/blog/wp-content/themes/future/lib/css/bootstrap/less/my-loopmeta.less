@@ -1,0 +1,47 @@
+//
+// Loop Meta classes
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Loop Meta
+* ==========================================================================
+*/
+
+.loop-meta {
+	color: @loop-meta-text-color;
+	padding-top: @loop-meta-padding;
+	padding-bottom: @loop-meta-padding;	
+	margin: 0;
+	border-bottom: 1px solid @loopmeta-border-color;
+
+	@media (max-width: @screen-xs-max) {
+		padding-top: floor(@loop-meta-padding / 1.22);
+		padding-bottom: floor(@loop-meta-padding / 1.22);
+	}
+	
+	& a {
+	  	color: @loop-meta-link-color;
+	  	&:hover,
+	  	&:focus {
+	    	color: @loop-meta-link-hover-color;
+	  	}
+	  	&:focus {
+	    	.tab-focus();
+	  	}
+	}	
+
+	& .loop-meta-title {	
+		font-family: @loop-meta-font-family;
+		font-size: @loop-meta-font-size;
+		font-weight: @loop-meta-font-weight;
+		line-height: @loop-meta-line-height;
+		letter-spacing: @loop-meta-letter-spacing;	
+		text-transform: @loop-meta-text-transform;		
+	}
+
+	& .loop-meta-description {	
+		margin: 10px 0 0 0;		
+	}
+	
+}

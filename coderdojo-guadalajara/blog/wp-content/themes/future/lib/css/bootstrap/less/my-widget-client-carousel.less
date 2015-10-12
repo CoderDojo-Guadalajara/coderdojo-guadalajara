@@ -1,0 +1,68 @@
+//
+// Client Carousel Widget
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Client Carousel Widget
+* ==========================================================================
+*/
+
+.widget-clientcarousel-future {
+	
+	& .jcarousel-controls-client {
+
+		> ul {
+		
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			.clearfix();
+
+			> li {
+
+				position: relative;
+				display: inline-block;
+				margin: 0;
+				padding: 0;
+
+				> a {
+			    	
+			    	position: relative;
+			    	display: block;
+			    	margin: 0 8px 0 0;
+			    	padding: 0;
+					
+				    border-radius: 2px;
+					-webkit-border-radius: 2px;
+					-moz-border-radius: 2px;
+
+			    }
+			
+			}
+		}
+
+	}
+
+	& .jcarousel-client {
+	    
+	    position: relative;
+	    overflow: hidden;
+
+		& > ul {
+			
+			width: 20000em;
+		    position: relative;		    
+		    margin: 0;
+		    padding: 0;
+		    list-style: none;
+		    .clearfix();
+
+		    & > li {
+		    	float: left;
+		    }
+		}
+
+	}
+
+}

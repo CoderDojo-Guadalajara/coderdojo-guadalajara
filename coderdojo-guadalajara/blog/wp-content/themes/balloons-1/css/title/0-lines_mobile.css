@@ -1,0 +1,33 @@
+/*
+MAX-WIDTH 800px
+*/
+
+@media screen and (max-width: 800px) {
+
+	body {
+		background: #eee url(../../img/balloons-00.png) no-repeat center 35px;
+	}
+
+	#header {
+		margin: 0 0 180px 0;
+	}
+	
+}
+
+
+
+/*
+MAX-WIDTH 640px
+*/
+
+@media screen and (max-width: 640px) {
+
+	body {
+		background: #eee url(../../img/balloons-06.png) no-repeat center -46px;
+	}
+	
+	#header {
+		margin: 290px 0 -100px 0;
+	}
+
+}

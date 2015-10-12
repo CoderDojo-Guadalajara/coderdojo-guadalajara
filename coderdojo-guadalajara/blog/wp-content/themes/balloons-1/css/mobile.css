@@ -1,0 +1,134 @@
+/*
+MAX-WIDTH 800px
+*/
+
+@media screen and (max-width: 800px) {
+
+	html {		
+		-webkit-text-size-adjust: none;
+	}
+
+	#wrapper {
+	    width: 90%;
+	}
+
+	#container {
+		width: 100%;
+	}
+
+	#parallax-01, 
+	#parallax-02, 
+	#parallax-03, 
+	#parallax-04, 
+	#parallax-05, 
+	#parallax-06, 
+	#parallax-07 {
+		visibility: hidden;
+		display: none;
+	}
+	
+	#header {
+		margin: 0 0 180px 0;
+	}
+	
+	#navigation {
+		padding: 10px 0 5px 0;
+	}
+	
+	textarea, input {
+    	-webkit-appearance: none;
+		width: 70%;
+		max-width: 70%;
+		min-width: 70%;
+	}
+
+	#footer {
+		width: 100%;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;	
+	}
+
+	#footer-inner {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.col1 {
+		width: 31%;
+		margin: 0;
+		padding: 0 2% 0 0;
+	}
+	
+	.col1 .content {
+		background-color: #fff;
+	}
+	
+	.col1 .content .text {
+		padding: 10px 20px 10px 20px;
+	}
+
+	#commentlist {
+		text-align: left;
+		padding: 0;
+	}
+	
+	.entry {
+		margin: 0 0 50px 0;
+	}
+	
+	#footer-entry {
+		margin: -10px 0 55px 0;
+	}
+	
+}
+
+
+
+/*
+MAX-WIDTH 640px
+*/
+
+@media screen and (max-width: 640px) {
+
+	#navigation {
+		margin: 0 0 20px 0;
+	}
+
+	h1 {
+		font-size: 42px;
+		line-height: 50px;
+	}
+	
+	.col1 {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	
+	.entry {
+		margin: 0 0 40px 0;
+	}
+	
+	#footer-entry {
+		margin: -10px 0 45px 0;
+	}
+}
+
+
+
+/*
+MAX-WIDTH 320px
+*/
+
+/*
+
+@media screen and (max-width: 320px) {
+	
+	#navigation {
+		margin: 0 0 20px 0;
+	}
+
+}
+
+*/

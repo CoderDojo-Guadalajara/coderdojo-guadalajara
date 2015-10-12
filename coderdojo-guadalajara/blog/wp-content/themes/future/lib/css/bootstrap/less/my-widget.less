@@ -1,0 +1,144 @@
+//
+// Widgets Classes
+// --------------------------------------------------
+
+
+/*
+* ==========================================================================
+* Widget
+* ==========================================================================
+*/
+
+.widget {	
+	
+	width: 100%;
+	color: @widget-text-color;
+	word-wrap: break-word;
+	overflow: hidden;
+	padding-bottom: @widget-padding-bottom;
+	margin-bottom: @widget-margin-bottom;
+	border-bottom: solid 1px @widget-border-color;	
+	
+	& a {
+	  	color: @widget-link-color;
+	  	&:hover,
+	  	&:focus {
+	    	color: @widget-link-hover-color;
+	  	}
+	  	&:focus {
+	    	.tab-focus();
+	  	}
+	}
+	
+	& .widget-title {
+		color: @widget-title-text-color;
+		font-family: @widget-title-font-family;
+		font-size: @widget-title-font-size;
+		margin-top: @widget-title-margin-top;
+		margin-bottom: @widget-title-margin-bottom;
+		& span {
+			display: block;
+		}
+	}
+
+	& .widget-inside > ul,
+	& .widget-inside > ol {
+		padding-left: 20px;
+		margin-bottom: 0;
+		ul {
+			padding-left: 20px;
+		}
+	}
+	
+	& img {
+		.img-responsive();
+	}
+	
+	&.widget-last {
+		.widget-last();
+	}
+	
+	.clearfix();
+
+}
+
+/*
+* ==========================================================================
+* Widget Inverse
+* ==========================================================================
+*/
+
+.widget-inverse {	
+	
+	& .widget {
+		
+		color: @widget-inverse-text-color;
+		border-bottom: solid 1px @widget-inverse-border-color;
+		
+		& a {
+			color: @widget-inverse-link-color;
+			&:hover,
+			&:focus {
+				color: @widget-inverse-link-hover-color;				
+			}
+			&:focus {
+		    	.tab-focus();
+		  	}
+		}
+		
+		& .widget-title {
+			color: @widget-inverse-title-text-color;	
+		}
+		
+		&.widget-last {
+			.widget-last();
+		}		
+	
+	}		
+
+}
+
+/*
+* ==========================================================================
+* Widget Default
+* ==========================================================================
+*/
+
+.widget-default {	
+	
+	& .widget {
+		
+		& .btn-primary {
+			
+			color: @widget-link-color;
+
+			&:hover,
+			&:focus {
+				color: @widget-link-hover-color;				
+			}
+
+		}
+
+		&.widget-last {
+			.widget-last();
+		}		
+	
+	}		
+
+}
+
+/*
+* ==========================================================================
+* Widgetized Wrapper Widget
+* ==========================================================================
+*/
+
+.footer-tail-sidebars {
+	
+	& .widget {
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+
+}

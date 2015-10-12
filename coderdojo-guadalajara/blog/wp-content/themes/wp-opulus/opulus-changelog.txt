@@ -1,0 +1,255 @@
+v2.5.9  - Added linked featured images on archive
+        - Fixed margin issues on WP Core align classes
+        - Show featured images on frontpage at mobile and tablet with centered text
+        - Updated theme options panel
+
+v2.5.8  - Remove check for register_nav_menu
+
+v2.5.7  - Moved content_width global into after_setup_theme
+
+v2.5.6	- Added meta title function to fix blank frontpage title issue
+
+v2.5.5	- Added missing FontAwesome css file
+
+v2.5.4	- Added FontAweme fonts
+	- Fixed mobile logo style
+
+v2.5.3	- Fixed wrong theme listed in license.txt
+
+v2.5.2	- Fixed textarea filter
+
+v2.5.1	- Fixed incorrect $content_width varaible
+
+v2.5.0	- Added pluggable condition to many functions to help with child theme creation
+
+v2.4.9	- Esc_url validate all social media links
+
+v2.4.8	- Added option to hide RSS icon
+	- Added option to use alt RSS link
+	- Fixed layout issue on button in options panel
+
+v2.4.7 	- Removed orphaned or unused scripts: jquery.xcolor.min.js, jquery-ui-core, jquery.tools.min.js, nivo-slider.css
+
+v2.4.6 	- Fixed image alignment issues on frontpage
+	- Fixed transparency issue with ribbon_wrap
+
+v2.4.5	- Created title partials and updates any templates with calls to post/page titles
+	- Moved blog feed loop to partial and updated templates
+	- Added option to show excerpt/content on blog feeds
+	- Updated supportinfo url
+	- Removed option to set blog post number so number will be set by core feature
+	- Cleaned page.php template
+	- Removed author template as it is replced by archive with conditions in partial
+
+v2.4.4	- Remove custom-header and editor-style tags as they don't apply
+	- Fixed menu/logo overlap issue with large menus
+
+v2.4.3	- Fixed line-height and margin issue on h1 in options panel view
+	- Fixed footer font style issue with some widget text
+	- Organized options panel css output
+	- Added clear helper function and added clear before and after featured images
+	- Fixed description on options panel for blog row count
+
+v2.4.2	- Fixed errors reported from new sanitize functions
+
+v2.4.1	- Updated sanitize functions in theme options panel
+
+v2.4.0	- New Theme URI
+
+v2.3.9	- Used core files for jQuery and UI
+	- Removed enqueue for orphaned nivo-slider
+	- Removed unused contants CSS_PATH and JS_PATH
+	- Added sales url contants and used on options panel
+	- Added unique keys to options array
+	- Added automated display of options panels
+	- Cleaned up save and filter function for options
+	- Fixed helper to use defaults from array not DB
+	- Removed function saving options to DB on init
+
+v2.3.8	- Use get_option('date_format') per discussion: "[theme-reviewers] Hard coding date format"
+	- Migrated to new layout tags
+
+v2.3.7	- Fixed links in options panel
+	- Removed info and video from options array
+	- Removed empty class items from options array
+
+v2.3.6	- Added option to set post number on secondary frontpage feed
+	- Added support links in theme options panel
+
+v2.3.5	- Moved social icons into partial
+	- Updated and shortened credit link in footer
+	- Removed refrences/hooks/functions/sidbars for post-type not availible in free theme
+
+v2.3.4	- Fixed broken template link to banner
+	- Fixed default read more text causing options to fail during update in some hosts
+
+v2.3.3	- Fixed Sidebar menu visibility	CSS issue
+	- Added missing default widget classes to register_sidebar
+	- Updated marketing link urls with global variable
+	- Added WooCommerce support info to Membership tab
+	- Remove dashboard widgets to conform to WP Themes Directory guidelines
+
+v2.3.2	- Added PO/MO files for translation
+
+v2.3.1	- Disabled options panel info lightboxes due to issue with multiple openings
+
+v2.3.0	- Fix blank title on home page
+	- Undefined index issues when saving options panel
+
+v2.2.9 	- Migration of template elements into partials (ribbon, contact line)
+	- Fixed get_template_part configuration on error for no content
+	- Replaced respond.js lost in last update
+
+v2.2.8 	- Begin migration of template elements into partials (title, error, logo, banner)
+
+v2.2.7 	- Updated paths to css/js/images to support child themes 
+
+v2.2.6	- Updated license to GPL 3 
+	- Removed none 'free' tabs from options panel
+	- Updated Membbership tab to real text
+
+v2.2.5	- Removed letter-spacing causing odd text appearance
+	- Fixed broken link to home_ulr on mobile menu
+
+v2.2.4	- Fixed spacing issue in theme options title
+	- Added condition to hide Action Text when left blank in options panel
+
+v2.2.3	- Fixed checkboxes not saving in options panel due to obtuse isset condition
+	- Default footer title set to get_bloginfo('name')
+
+v2.2.2	- Added option to set footer background color
+
+v2.2.1	- Fixed sidebars to use is_active_sidebar rather then outdated function_exists in footer and front-page
+
+v2.2.0	- Fixed Localization namespace issue on options.php
+	- Simplified load demo funtion and removed secondary options table row to conform to directory guidelines
+	- Added missing localization on options array
+	- Fixed Undefined index notices caused by filter process
+	- Simplified sanitize_callback to remove filters with little/no value
+	- Added missing panel image from last version. 
+
+v2.1.9	- Added shortcode support to Action Text area 
+	- Added mobile menu support to Demo Content Loader
+
+v2.1.8	- Fixed menu display issue at @media (min-width: 768px) and (max-width: 979px) causing first sub-menu items to loose padding 
+	- Removed sidebar condition and output for post-type not availible in theme 
+
+v2.1.7	- Updated and simplified function nimbus_options_to_head to automate font filtering and setting of option variables
+
+v2.1.6	- Added mising google plus icon in footer: thanks to mdcosta911
+
+v2.1.5	- Fixed conflict with WP e-Commerce in nimbus_public.js
+
+v2.1.4	- Removed option to include additional site-wide js libraries to fix conflict with mobile menu and conform to theme directory guidelines on external resources
+
+v2.1.3	- Removed jquery.nivo.slider.js orphaned script
+	- Removed jquery.nivo.slider.js from license exceptions on readme
+	- Internationalized all non translatable text on tamplates  
+	- Internationalized all non translatable text in options panel
+
+v2.1.2	- Removed "create post object" for post-type not availible in theme from load_demo.php
+	- Updated all dirname(__FILE__) to get_template_directory()
+
+v2.1.1 	- Fixed content area overflow issue with oversized images with caption
+	- Fixed search returning wrong results 
+	- Fixed search results layout issues
+	- Removed Sidebar menu condition for post-type not availibe in theme
+	- Remove single, archive and taxonomy templates for post-type not availible in theme
+
+v2.1.0	- Fixed conflict with All-in-One Event Calendar by Timely by prefixing post_meta_single with nimbus_ in option array and on single.php and header.php
+	- Added "Respond.js v1.1.0: min/max-width media query polyfill" to fix header display issue in ie7-ie8 with update to readme.txt license information 	
+
+v2.0.9	- Updated readme.txt to include copyright attributions
+
+v2.0.8	- Added option to hide excerpts on frontpage features spots
+	- Added option to remove archive sidebar menu 
+
+v2.0.7  - Added readme.txt with script/font licence info
+	- removed orphaned font from nimbus framework directory
+
+v2.0.6  - Updated user guide to include mobile menu directions
+
+v2.0.5	- Fixed broken 404 layout issue
+	- Updated link to demo site on the options panel
+	- Updated URL to support info on dashboard widget
+	- Updated Google fonts where new styles were availible and add new Google fonts
+	- Added options panel item for social "like" buttons. Not availible to free theme users.
+	- Fixed comment thread image issue where backgrounds failed to match
+
+v2.0.4	- Updated data validation to Read More links
+
+v2.0.3	- Added data validation to Read More links
+
+v2.0.2	- Fixed broken localization function on archive.php
+	- Added links to frontpage featured images
+	- Added option to change "Read More" links from options panel 
+
+
+v2.0.1 	- Added info tabs about premium (not availible) features "shortcodes and Widgets" to options panel
+	- Added target="_blank" to social media links in footer
+	- Added Widgets on dashboard for newsletter signup and support
+
+v2.0.0 	- Changed Default Text Logo to blog_info 'name'
+	- Updated Tags
+	- Migrated background settings to add_theme_support (custom-background)
+
+v1.09 	- Updated Description to reflect removal of CPT Portfolio
+	- Updated Tags
+	- Fixed broken RSS Feed link
+	- Fixed post-single meta info display
+
+v1.08 	- Fixed comments_number when no comments are shown
+	- Fixed ie8 stylesheet url issues
+	- Removed portfolio CPT
+	- Add Custom CSS tab in options
+	- Fixed image clear issue on home template featured image
+
+v1.07	- Fixed primary menu display of submenus
+	- Fixed application of menus to locatons. 
+	- Added a mobile menu location
+
+v1.06 	- Fixed default menu display issue
+
+v1.05 	- Fix Word Wrap css issue
+	- Fix single post navigation
+	- Fix css float issue with last object in content causing broken bio
+	- Fix float/clear css issue after title 
+	- Clear float before comments 
+
+
+v1.04 	- Update support for blog index on frontpage 
+	- Fix overlap with text logo when using long menus
+	- Fix undefined index instance on options.php
+
+
+v1.03 	- Remove SEO features 
+	- Update to User Guide to clarify features comparison between free vs premium themes
+	- Remove comments settings from theme options
+	- Added post on frontpage functionality
+	- Footer copyright now uses get_bloginfo('name') to set default
+	- Added support for blog index on frontpage
+
+	
+v1.02 	- Update template structure provide frontpage image reminder
+      	- Fix title padding
+      	- Fix credit link in footer
+      	- Link logos
+      	- fix padding issue with contact area fonts  
+	- Use wp_enqueue_script() , wp_enqueue_style() for all instances of script/stylesheet includes
+	- Replace hook get_header with wp_enqueue_scripts where required
+	- Move scroll related JS from head to external .js page
+	- Remove favicon functionality
+	- Move wp_head to just before closing head.
+	- Filter title through wp_title()
+	- Fixed all namespacing issues
+	- Develp correctly namspaced support for translation
+	- Fix paths to additional stylesheets to use get_stylesheet_uri()
+	- Added comment display to pages
+	- Fix post title display when left blank
+	- Fixed broken read more links
+
+
+v1.01 	- Fix broken link on setup tab
+
+
+v1.0 	- Initial Launch 

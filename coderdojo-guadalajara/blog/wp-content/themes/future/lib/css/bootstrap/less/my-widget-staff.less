@@ -1,0 +1,73 @@
+//
+// Staff Widget
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Staff Widget
+* ==========================================================================
+*/
+
+.widget-staff-future {
+	
+	& a {
+	  	color: @link-color;
+	  	&:hover,
+	  	&:focus {
+	    	color: @link-hover-color;
+		    text-decoration: none;
+		    .opacity(.9);
+	  	}
+	  	&:focus {
+	    	.tab-focus();
+	  	}
+	}
+
+	& .widget-staff-row {
+		
+		&.row-head {
+			@media (max-width: @screen-xs-max) {
+				& .widget-staff-col {
+					padding-bottom: @staff-widget-padding-col;
+				}
+			}
+		}
+		
+		&.row-tail {
+			padding-top: @staff-widget-padding-row;
+
+			@media (max-width: @screen-xs-max) {
+				padding-top: 0;
+
+				& .widget-staff-col {
+					padding-top: @staff-widget-padding-col;
+				}
+
+			}
+		}
+	}
+
+	& .cpt-staff-image {
+		margin-bottom: 30px;
+		> img {
+			&.text-center {
+				margin: 0 auto;
+			}
+			&.text-right {
+				margin: 0 0 0 auto;
+			}			
+		}
+	}
+
+	& .cpt-staff-title,
+	& .cpt-staff-designation,
+	& .cpt-staff-content {
+		margin: 10px 0 0 0;
+		padding: 0; 
+	}
+
+	& .cpt-staff-socialmedia {
+	  	margin: 20px 0 0 0;
+	}
+
+}

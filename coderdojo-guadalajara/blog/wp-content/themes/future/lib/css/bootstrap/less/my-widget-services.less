@@ -1,0 +1,62 @@
+//
+// Services Widget
+// --------------------------------------------------
+
+/*
+* ==========================================================================
+* Services Widget
+* ==========================================================================
+*/
+
+.widget-services-future {
+	
+	& .cpt-service-icon {
+		margin: 0;
+	}
+
+	& .cpt-service-title {
+		margin: 0 0 10px 0;
+	}
+
+	& .cpt-service-content {
+		margin: 0;
+	}
+
+	& a {
+	  	color: @link-color;
+	  	&:hover,
+	  	&:focus {
+	    	color: @link-hover-color;
+		    text-decoration: none;
+		    .opacity(.9);
+	  	}
+	  	&:focus {
+	    	.tab-focus();
+	  	}
+	}
+	
+	& .widget-services-row {
+		
+		&.row-head {
+			@media (max-width: @screen-xs-max) {
+				& .widget-services-col {
+					padding-bottom: @services-widget-padding-col;
+				}
+			}
+		}
+		
+		&.row-tail {
+			padding-top: @services-widget-padding-row;
+
+			@media (max-width: @screen-xs-max) {
+				padding-top: 0;
+
+				& .widget-services-col {
+					padding-top: @services-widget-padding-col;
+				}
+
+			}
+		}
+	}
+
+}
