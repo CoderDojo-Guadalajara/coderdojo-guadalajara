@@ -1,8 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-echo "Información base";
-=======
 echo "Información base <br><br>";
 
 echo "¿Qué es coderdojo? <br>";
@@ -26,5 +23,4 @@ echo "Fuentes de información y redes sociales <br>";
 echo "Página oficial de coderdojo. https://coderdojo.com<br>";
 echo "Twitter oficial de coderdojo. https://twitter.com/coderdojo<br>";
 echo "Fácebook oficial de coderdojo. https://facebook.com/CoderDojo<br>";
->>>>>>> master
 ?>
