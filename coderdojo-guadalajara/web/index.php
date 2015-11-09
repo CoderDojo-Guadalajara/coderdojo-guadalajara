@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>CoderDojo Guadalajara</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="fonts/madman.ttf">
+    <link rel="icon" type="image/png" href="images/coderdojoIcon.png" />
 	</head>
 
 	<body>
@@ -28,16 +28,17 @@
         	</header>
        
         <section class="contenido">
-        	<article id="inicio">
-        	   <!--<h2>Bienvenidos</h2>
-               <p>Les invitamos a conocer lo que tenemos para ustedes.</p>
+        	<!--<article id="inicio">
+        	     <h2 id="Bienvenida">Bienvenidos</h2>
+               <p id="Bienvenida">Les invitamos a conocer lo que tenemos para ustedes.</p>
             </article>-->
 
-            <!--<article id="que_es">
+            <article id="que_es">
                <h2>¿Qué es CoderDojo?</h2>
                <p>CoderDojo es una iniciativa internacional surgida en Irlanda en 2011 con el objetivo de enseñar a la niñéz y a la juventud a programar en un ambiente informal.</p>
                <p>En la actualidad existen decenas de clubes alreddor de 20 países; entre ellos México.</p>
-            </article>-->
+               <p>Puede obtener más información en la página de CoderDojo.</p>
+            </article>
 
             <!--<article id="que_es_gdl">
                <h2>¿Qué es CoderDojo Guadalajara?</h2>
@@ -97,39 +98,24 @@
                <h2>Línea del tiempo</h2>
                <p>Por cuestiones de dudas de los chicos que han asistido, se está construyendo una línea del tiempo con la historia de la computación, la programación y el diseño de videojuegos.</p>
             </article>-->
-
-            <article>
-               <h2>Prueba Footer</h2>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-               <p>Prueba footer lalala</p><p>Prueba footer lalala</p><p>Prueba footer lalala</p>
-            </article>
         </section>
         
         <footer class="footer" id="footerMain">
            
             <section class="footer" id="footDireccion">
-                <p>Ubicación: Plaza Bonita, Local R10. Avenida México #3370, Colonia Monraz; Guadalajara, Jalisco, México. C.P. 44670.</p>
-               
+                <p id="pUbicacion" class="textsign"><img src="images/ic_explore_black_48dp.png" class="sign"> Plaza Bonita, Local R10. Avenida México #3370, Colonia Monraz. Guadalajara, Jalisco, México. C.P. 44670.</p>
+                <p id="pTelefono" class="textsign"><img src="images/ic_settings_phone_black_48dp.png" class="sign"> +52 (33) 15957854</p>
+                <p id="pContacto" class="textsign"><img src="images/1445471995_Inbox-Google.png" class="sign"> coderdojo.guadalajara@gmail.com, coderdojo@soluciones5w.com</p>
             </section>
-            <section class="footer" id="footContacto">
-                <p>Teléfono: 15957854</p>
-                 <p>Contacto: coderdojo.guadalajara@gmail.com, coderdojo@soluciones5w.com</p>
-            </section>
-             <section class="footer" id="footRedesSociales">
+            <section class="footer" id="footRedesSociales">
+              <p id="tituRedes">Redes Sociales</p>
+              <a href="https://plus.google.com/u/1/113122527136030161151/about" target="_blank"><img src="images/1445466765_Google-.png" id="imagen_gplus" class="imgRedes"></a>
+              <a href="https://groups.google.com/forum/?hl=es#!forum/coderdojoguadalajara" target="_blank"><img src="images/1445467742_Google-2.png" id="imagen_grupgoogle" class="imgRedes"></a>
+              <a href="../blog" target="_blank"><img src="images/1445467202_Wordpress.png" id="imagen_wp" class="imgRedes"></a>
+              <a href="https://github.com/CoderDojo-Guadalajara" target="_blank"><img src="images/1445467397_Github.png" id="imagen_github" class="imgRedes"></a>
+              <a href="https://zen.coderdojo.com/dojo/mx/plaza-bonita-av-mexico-3370-col-monraz-44670-guadalajara-jal/guadalajara" target="_blank"><img src="images/1445467847_Safari.png" id="imagen_zen" class="imgRedes"></a>
+              <img src="images/margen.png" id="imagen_zen" class="imgRedes">
+              <a href="https://coderdojo.com/" target="_blank"><img src="images/coderdojoIcon.png" id="imagen_coderdojo" class="imgRedes"></a>
             </section>
             
         </footer>

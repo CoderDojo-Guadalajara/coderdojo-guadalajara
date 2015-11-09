@@ -1,0 +1,103 @@
+@font-face
+{
+    font-family: "Air Heads";
+    src: url('../fonts/air_heads/AirHeads.otf') format('opentype');
+}
+
+@font-face
+{
+    font-family: "CF Rebelle";
+    src: url('../fonts/cf_rebelle/CFRebelle-Regular.ttf');
+}
+
+* 
+{
+  padding: 0;
+  margin: 0;
+}
+
+img.sign
+{
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+}
+
+img.imgRedes
+{
+    width: 45px; 
+    height: 45px;
+}
+
+p.textsign
+{
+    font-size: 20px;
+}
+
+.aviso
+{
+    display: block;
+    text-align: center;
+    top: 120px;
+}
+
+.footerLeft
+{
+    float: left;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.footerRight
+{
+    float: right;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#footerMain
+{
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 100;
+    background: #ffffff;
+    font-size: 20px;
+}
+
+#imagen_principal
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px; 
+    height: 300px;
+}
+
+#pAviso
+{
+    font-size: 30px;
+    font-family: "Calibri";
+}
+
+#TitH2
+{
+    font-size: 80px;
+    font-family: "Air Heads", "Calibri";
+}
+
+#footDireccion
+{
+    font-size: 30px;
+    font-family: "Calibri";
+  
+}
+
+#tituRedes
+{
+    font-size: 30px;
+    font-family: "Calibri";
+    text-align: center;
+}

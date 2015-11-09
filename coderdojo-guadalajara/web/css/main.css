@@ -1,3 +1,15 @@
+@font-face
+{
+    font-family: "Air Heads";
+    src: url('../fonts/air_heads/AirHeads.otf') format('opentype');
+}
+
+@font-face
+{
+    font-family: "CF Rebelle";
+    src: url('../fonts/cf_rebelle/CFRebelle-Regular.ttf');
+}
+
 * 
 {
   padding: 0;
@@ -10,21 +22,105 @@ html, body
     position: relative;
 }
 
+h2#Bienvenida
+{
+    font-size: 60px;
+}
+
+p#Bienvenida
+{
+    font-size: 40px;
+}
+
+img.sign
+{
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+}
+
+img.imgRedes
+{
+    width: 50px; 
+    height: 50px;
+}
+
+.contenido
+{
+    font-family: "calibri";
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.footer
+{
+    background: #20B2AA;
+    font-family: "calibri";
+}
+
+.menu_principal
+{
+    background: #20B2AA;
+    font-family: "calibri";
+}
+
+.menu_principal ul
+{
+    font-family: "calibri";
+    list-style:none;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+ 
+.menu_principal ul li
+{
+    float: left;
+    display: inline-block;
+    margin: 0px 6px 0px 6px;
+}
+
+.menu_principal ul li a
+{
+    font-size: 20px;
+}
+
+#footerMain
+{
+    position: fixed;
+    z-index: 100;
+    width:100%;
+    bottom: 0;
+    background: #20B2AA;
+}
+
+#footDireccion
+{
+    float: left;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#footRedesSociales
+{
+    float: right;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#logo_Principal
+{
+    width: 120px; 
+    height: 120px;
+}
+
 #main_container
 {
 	width:100%;
 	position: fixed;
 	z-index: 100;
-	
-	/*
-    float:left;
-    text-align: center;*/
-}
-
-#logo_Principal
-{
-	width: 120px; 
-	height: 120px;
 }
 
 #titulo_principal
@@ -34,114 +130,9 @@ html, body
 	margin: 15px 10px 15px 10px;
 }
 
-.menu_principal
+#tituRedes
 {
-    background: #20B2AA;
-}
-
-.footer
-{
-    background: #20B2AA;
-}
-
-.menu_principal ul
-{
-	list-style:none;
-	list-style-type: none;
-	text-align: center;
-	width: 100%;
-    /*
-    float:left;
-    border: 1px dashed;
-    padding: 2%;
-    width:95%;*/
-}
- 
-.menu_principal ul li
-{
-	float: left;
-	display: inline-block;
-	margin: 0px 6px 0px 6px;
-	/*float:left;
-    margin-right:20px;
-    margin-bottom:10px;
-    background: #ff812d;
-    padding:5px;
-    border-radius: 15%;*/
-}
-
-.menu_principal ul li a
-{
-	font-size: 20px;
-}
-
-.contenido
-{
-	text-align: center;
-	position: relative;
-	top: 120px;
-}
-
-#footerMain
-{
-    position: fixed;
-    z-index: 100;
-    background: #ffffff;
-    width:100%;
-    
-    bottom: 0;
-    /*
-    bottom: 0;
-    position: fixed;*/
-    /*width:90%;
-    margin-top:5px;
-    margin-left:5%;
-    background:#ffffff;
-    border: 3px outset;
-    height: 110px;
-    float:left;*/
-}
-
-body
-{
-	/*margin:0px;
-    padding-top:5px;*/
-}
-
-.contenido
-{
-	/*width:90%;
-    margin-top:5px;
-    margin-left:5%;
-    padding-bottom:50px;
-    background:#ffffff;
-    border: 1px dashed;
-    height: auto;
-    float:left;*/
-}
-
-.contenido article
-{
-    /*padding: 3%;*/
-}
-
-.menu_principal ul li a
-{
-    /*color: #FFFFFF;
-    text-decoration:none;*/
-}
-
-.menu_principal ul li a:hover
-{
-    /*color: blue;*/
-}
-
-.footer_msg
-{
-    /*margin-top: 40px;
-	float: left;
-	margin-left: 5%;
-	font-size: 0.8em;
-	color: rgb(126, 126, 126);*/
+    font-size: 30px;
+    text-align: center;
 }
 
